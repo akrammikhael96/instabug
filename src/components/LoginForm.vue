@@ -2,6 +2,7 @@
 export default {
   data() {
     return {
+      showPassword: false,
       isShake: false,
       wrongCredentials: false,
       emailAccepted: false,
@@ -62,8 +63,6 @@ export default {
 
   computed: {
     isEmailValid() {
-      console.log("444");
-
       this.disableLoginBtn = true;
       this.emailAccepted = false;
       this.onEmailFieldInput = true;
@@ -83,8 +82,6 @@ export default {
     },
 
     isPasswordValid() {
-      console.log("555");
-
       this.disableLoginBtn = true;
       this.passwordAccepted = false;
       this.onPasswordFieldInput = true;
@@ -175,12 +172,18 @@ export default {
 
         <input
           v-model="passwordInput"
-          type="text"
+          :type="showPassword ? 'text' : 'password'"
           name="password"
           id="password"
           :class="isPasswordValid"
           placeholder="6+ Characters"
         />
+        <span
+          ><i
+            @click="showPassword = !showPassword"
+            :class="[showPassword ? 'bxs-hide' : 'bxs-show', 'bx']"
+          ></i
+        ></span>
         <p v-if="onPasswordFieldInput" class="passwordValidate">
           {{ passwordValidateMsg }}
         </p>
@@ -323,6 +326,23 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+
+    span i {
+      position: absolute;
+      top: 2.3rem;
+      left: 18rem;
+      background-color: #efefef;
+      padding: 0.2rem;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+      border-radius: 0.2rem;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #00287a;
+        color: white;
+      }
+    }
 
     & .passwordLabels {
       display: flex;
