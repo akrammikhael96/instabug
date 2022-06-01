@@ -1,14 +1,51 @@
-# instabugTaskApp
 
-This template should help get you started developing with Vue 3 in Vite.
 
-## Recommended IDE Setup
+# Deployed Application [Here](https://am96.netlify.app/) 
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin).
 
-## Customize configuration
+## Usage
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+**user 1 
+credentials :**    
+> email : **mohamed@instabug.com**  
+password : **A12345678**
+
+**user 2
+credentials :**    
+> email : **mohamed1@instabug.com**  
+password : **A12345678**
+
+**user 3 
+credentials :**    
+> email : **mohamed2@instabug.com**  
+password : **A12345678**
+
+**user 4 
+credentials :**    
+> email : **mohamed3@instabug.com**  
+password : **A12345678**
+
+**user 5 
+credentials :**    
+> email : **mohamed4@instabug.com**  
+password : **A12345678**
+
+**user 6
+credentials :**    
+> email : **mohamed5@instabug.com**  
+password : **A12345678**
+
+**user 7 
+credentials :**    
+> email : **mohamed6@instabug.com**  
+password : **A12345678**
+
+**user 8 
+credentials :**    
+> email : **mohamed7@instabug.com**  
+password : **A12345678**
+
+
 
 ## Project Setup
 
@@ -22,17 +59,8 @@ npm install
 npm run dev
 ```
 
-### Compile and Minify for Production
 
-```sh
-npm run build
-```
 
-### Run Unit Tests with [Cypress Component Testing](https://docs.cypress.io/guides/component-testing/introduction)
-
-```sh
-npm run test:unit # or `npm run test:unit:ci` for headless testing
-```
 
 ### Run End-to-End Tests with [Cypress](https://www.cypress.io/)
 
@@ -41,8 +69,4 @@ npm run build
 npm run test:e2e # or `npm run test:e2e:ci` for headless testing
 ```
 
-### Lint with [ESLint](https://eslint.org/)
 
-```sh
-npm run lint
-```
