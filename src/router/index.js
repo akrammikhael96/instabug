@@ -12,18 +12,18 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: "/instabug/",
+      path: "/",
       redirect: {
         name: "LoginPage"
       }
     },
     {
-      path: "/instabug/login",
+      path: "/login",
       name: "LoginPage",
       component: LoginView,
     },
     {
-      path: "/instabug/welcome",
+      path: "/welcome",
       name: "WelcomePage",
 
       // route level code-splitting
@@ -32,7 +32,7 @@ const router = createRouter({
       component: () => import("../views/WelcomeView.vue"),
     },
     {
-      path: "/instabug/404",
+      path: "/404",
       name: "404Page",
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route

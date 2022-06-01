@@ -13,7 +13,8 @@ export default {
 <template>
   <div class="page">
     <div class="container404">
-      <div class="illustration"></div>
+      <img src="@/assets/logo.svg" alt="logo" />
+
       <div class="content">
         <h3>404 Page not found!</h3>
         <br />
@@ -42,10 +43,9 @@ export default {
     align-items: center;
     row-gap: 2rem;
 
-    & .illustration {
-      width: 20rem;
-      height: 20rem;
-      background-color: aliceblue;
+    & img {
+      width: 10rem;
+      height: 10rem;
     }
 
     & .content {
