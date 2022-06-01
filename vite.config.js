@@ -6,7 +6,7 @@ import vueJsx from "@vitejs/plugin-vue-jsx";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/instabug-login-page/",
+  base: "/instabug/",
   plugins: [vue(), vueJsx()],
   resolve: {
     alias: {
