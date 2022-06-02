@@ -249,14 +249,14 @@ export default {
     background-color: white;
     padding: 0.5rem;
     border-radius: 50%;
-    margin-bottom: 1rem;
+    margin-bottom: 2.5vh;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     border: 0.5px solid #00287a;
   }
 }
 .btn-group {
   width: 100%;
-  margin-top: 1rem;
+  margin-top: 1.5vh;
 
   display: flex;
   flex-direction: column;
@@ -268,10 +268,10 @@ button {
   // column-gap: 5.5rem;
   justify-content: center;
   align-items: center;
-  height: 2.5rem;
+  height: 5.5vh;
   font-weight: 600;
   cursor: pointer;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1vh;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   outline: none;
   border-radius: 0.2rem;
@@ -296,12 +296,12 @@ button {
 }
 
 .inputForm {
-  margin-top: 1.5rem;
+  margin-top: 3vh;
   width: 20rem;
 
   & .incorrectData {
     width: 20rem;
-    height: 2.5rem;
+    height: 5.5vh;
     padding: 0.5rem;
     border: 1px solid black;
     background-color: rgba(255, 0, 0, 0.5);
@@ -333,12 +333,13 @@ button {
 
     span i {
       position: absolute;
-      top: 2.3rem;
-      right: 0.5rem;
+      top: 2.2rem;
+      right: 0.4rem;
       background-color: #efefef;
       padding: 0.2rem;
       box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
       border-radius: 0.2rem;
+      font-size: 1.5vw;
       cursor: pointer;
 
       &:hover {
@@ -354,8 +355,8 @@ button {
       width: 100%;
       & .forgot {
         font-size: 0.5rem;
-        align-self: center;
-        margin-top: 0.5rem;
+        align-self: flex-start;
+        margin-top: 1.8vh;
       }
     }
 
@@ -363,12 +364,12 @@ button {
       align-self: flex-start;
       font-size: 0.8rem;
       font-weight: 600;
-      margin-top: 0.5rem;
+      margin-top: 1.2vh;
     }
   }
   & input {
     width: 100%;
-    height: 2.5rem;
+    height: 5.5vh;
     padding: 0.5rem;
     outline: none;
     border-radius: 0.2rem;
@@ -383,13 +384,13 @@ button {
   & button {
     width: 100%;
     justify-content: center;
-    margin-top: 1rem;
-    margin-bottom: 0.2rem;
+    margin-top: 2vh;
+    margin-bottom: 1.5vh;
   }
 
   & .emailValidate,
   & .passwordValidate {
-    margin-top: 0.1rem;
+    margin-top: 0.3vh;
     font-size: 0.6rem;
     font-weight: 500;
     color: red;
@@ -407,6 +408,7 @@ button {
 }
 
 .helpLinks {
+  margin-top: -1vh;
   width: 20rem;
   display: flex;
   font-size: 0.5rem;
@@ -414,12 +416,12 @@ button {
 }
 
 footer {
-  margin-top: 1.5rem;
+  margin-top: 3vh;
   & p {
     // color: #64b5f9;
     color: #00287a;
     font-weight: 200;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     text-align: center;
     margin-bottom: 0.5rem;
   }
@@ -433,7 +435,7 @@ footer {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 
     & img {
-      width: 6rem;
+      width: 7vw;
     }
   }
 }
