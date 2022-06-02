@@ -494,6 +494,14 @@ footer {
   .helpLinks {
     width: 70vw;
     // height: 5vh;
+    & .incorrectData {
+      width: 70vw;
+      h & p {
+        font-size: 1.3vh;
+        font-weight: 900;
+        align-self: center;
+      }
+    }
   }
 
   .helpLinks {
