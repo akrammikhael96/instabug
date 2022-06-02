@@ -482,35 +482,54 @@ footer {
 
 @media screen and (max-width: 600px) {
   .container {
-    padding: 1rem;
-    margin: 1rem;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    & .title {
+      font-size: 5vw;
+    }
   }
   button,
   .inputForm,
   .helpLinks {
-    width: 100%;
+    width: 70vw;
+    // height: 5vh;
   }
 
   .helpLinks {
-    margin-top: -1rem;
+    margin-top: -3vh;
   }
 
+  footer {
+    & p {
+      font-size: 3vw;
+    }
+  }
   footer .sponsors {
     display: flex;
     justify-content: center;
     column-gap: 2rem;
     background-color: #00287a;
     padding: 1rem;
-    width: 90vw;
+    width: 80vw;
 
     & img {
-      width: 5rem;
+      width: 17vw;
     }
   }
 
   .logo {
-    width: 7rem;
-    height: 7rem;
+    width: 25vw;
+    height: 25vw;
+    margin-top: 0;
+  }
+
+  .inputForm {
+    & .passwordInput {
+      & span i {
+        font-size: 5vw;
+      }
+    }
   }
 }
 </style>
