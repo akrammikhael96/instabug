@@ -263,9 +263,10 @@ export default {
   align-items: center;
 }
 button {
-  width: 50%;
+  width: 20rem;
   display: flex;
-  column-gap: 5.5rem;
+  // column-gap: 5.5rem;
+  justify-content: center;
   align-items: center;
   height: 2.5rem;
   font-weight: 600;
@@ -276,6 +277,7 @@ button {
   border-radius: 0.2rem;
   border: 1px solid black;
   background-color: #efefef;
+  position: relative;
 
   &:hover:enabled {
     background-color: #00287a;
@@ -286,7 +288,8 @@ button {
   }
 
   & i {
-    justify-self: flex-start;
+    position: absolute;
+    left: 0.2rem;
     font-size: 1.2rem;
     padding: 0.5rem;
   }
@@ -294,7 +297,7 @@ button {
 
 .inputForm {
   margin-top: 1.5rem;
-  width: 50%;
+  width: 20rem;
 
   & .incorrectData {
     width: 100%;
@@ -331,7 +334,7 @@ button {
     span i {
       position: absolute;
       top: 2.3rem;
-      left: 18rem;
+      right: 0.5rem;
       background-color: #efefef;
       padding: 0.2rem;
       box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;

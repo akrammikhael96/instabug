@@ -34,36 +34,45 @@
 
 <style lang="scss" scoped>
 .carousel-container {
-  width: 100%;
+  width: 50vw;
   height: 100vh;
   display: flex;
   background-color: #00287a;
 
-  position: relative;
-  column-gap: 1rem;
+  // position: relative;
+  // column-gap: 1rem;
   gap: 0;
 
   overflow: hidden;
 
-  & div {
-    padding-left: 9rem;
-    padding-right: 9rem;
-    padding-top: 8rem;
+  // & .shownArea {
+  //   display: flex;
+  //   width: 100%;
+  //   border: 3px solid green;
+  // }
+  & .slide1,
+  & .slide2,
+  & .slide3 {
+    // padding-left: 9rem;
+    // padding-right: 9rem;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 100%;
-    width: 100%;
+    min-width: 50vw;
     justify-content: center;
     animation: slide 8s linear infinite alternate;
     // border: 3px solid red;
+    box-sizing: border-box;
 
     & img {
-      width: 25rem;
+      width: 70%;
       margin-bottom: 3rem;
     }
 
     & p {
+      width: 90%;
       color: white;
       font-weight: 600;
       text-align: center;
@@ -74,6 +83,8 @@
       display: flex;
       flex-direction: row;
       column-gap: 1rem;
+      justify-content: center;
+      margin-top: 1rem;
     }
   }
 
