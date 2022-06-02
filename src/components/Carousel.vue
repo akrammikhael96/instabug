@@ -67,7 +67,7 @@
     box-sizing: border-box;
 
     & img {
-      width: 70%;
+      width: 50%;
       margin-bottom: 3rem;
     }
 

@@ -222,8 +222,8 @@ export default {
 
 .container {
   z-index: 10;
-  width: 100%;
-  height: 100%;
+  width: 50vw;
+  // height: 100%;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -300,7 +300,7 @@ button {
   width: 20rem;
 
   & .incorrectData {
-    width: 100%;
+    width: 20rem;
     height: 2.5rem;
     padding: 0.5rem;
     border: 1px solid black;
@@ -407,7 +407,7 @@ button {
 }
 
 .helpLinks {
-  width: 50%;
+  width: 20rem;
   display: flex;
   font-size: 0.5rem;
   justify-content: space-between;
