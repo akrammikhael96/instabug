@@ -55,7 +55,7 @@
   & .slide3 {
     // padding-left: 9rem;
     // padding-right: 9rem;
-    padding: 1rem;
+    padding: 2vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -68,31 +68,33 @@
 
     & img {
       width: 50%;
-      margin-bottom: 3rem;
+      margin-bottom: 6vh;
     }
 
     & p {
-      width: 90%;
+      width: 85%;
+      font-size: 1.2vw;
       color: white;
       font-weight: 600;
       text-align: center;
     }
 
     & .dots {
-      padding: 1rem;
+      padding: 1.5vw;
       display: flex;
       flex-direction: row;
-      column-gap: 1rem;
+      column-gap: 1.8vw;
       justify-content: center;
-      margin-top: 1rem;
+      margin-top: 2vh;
     }
   }
 
   & span {
-    height: 0.6rem;
-    width: 0.6rem;
+    height: 1.5vh;
+    width: 1.5vh;
     border: 1px solid white;
     border-radius: 50%;
+    // transition: 5s;
     // background-color: transparent;
   }
 }

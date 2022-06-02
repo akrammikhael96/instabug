@@ -237,6 +237,7 @@ export default {
 
   & .title {
     font-weight: 400;
+    font-size: 3vh;
 
     & .boldText {
       font-weight: 600;
@@ -256,7 +257,7 @@ export default {
 }
 .btn-group {
   width: 100%;
-  margin-top: 1.5vh;
+  margin-top: 2.5vh;
 
   display: flex;
   flex-direction: column;
@@ -278,6 +279,7 @@ button {
   border: 1px solid black;
   background-color: #efefef;
   position: relative;
+  font-size: 1.5vh;
 
   &:hover:enabled {
     background-color: #00287a;
@@ -314,7 +316,7 @@ button {
     // transition: 5s;
 
     & p {
-      font-size: 1vw;
+      font-size: 1.6vh;
       font-weight: 900;
       align-self: center;
     }
@@ -333,8 +335,8 @@ button {
 
     span i {
       position: absolute;
-      top: 4.85vh;
-      right: 0.65vw;
+      top: 4.4vh;
+      right: 0.9vh;
       background-color: #efefef;
       padding: 0.5vh;
       box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -356,15 +358,16 @@ button {
       & .forgot {
         font-size: 1.1vh;
         align-self: flex-start;
-        margin-top: 1.8vh;
+        margin-top: 1.6vh;
       }
     }
 
     & label {
       align-self: flex-start;
-      font-size: 0.8rem;
+      font-size: 1.6vh;
       font-weight: 600;
       margin-top: 1.2vh;
+      // margin-bottom: 0.5vh;
     }
   }
   & input {
@@ -375,6 +378,7 @@ button {
     border-radius: 0.2rem;
     border: 1px solid black;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    font-size: 1.5vh;
 
     // &:focus {
     //   border: 2px solid #00287a;
