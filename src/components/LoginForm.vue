@@ -316,7 +316,7 @@ button {
     // transition: 5s;
 
     & p {
-      font-size: 1.6vh;
+      font-size: 1.05vw;
       font-weight: 900;
       align-self: center;
     }
@@ -496,8 +496,8 @@ footer {
     // height: 5vh;
     & .incorrectData {
       width: 70vw;
-      h & p {
-        font-size: 1.3vh;
+      & p {
+        font-size: 2.9vw;
         font-weight: 900;
         align-self: center;
       }
