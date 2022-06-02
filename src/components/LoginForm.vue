@@ -247,7 +247,7 @@ export default {
 
   & .logo {
     background-color: white;
-    padding: 0.5rem;
+    padding: 1.5vh;
     border-radius: 50%;
     margin-bottom: 2.5vh;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -263,15 +263,15 @@ export default {
   align-items: center;
 }
 button {
-  width: 20rem;
+  width: 25vw;
   display: flex;
   // column-gap: 5.5rem;
   justify-content: center;
   align-items: center;
-  height: 5.5vh;
+  height: 5vh;
   font-weight: 600;
   cursor: pointer;
-  margin-bottom: 1vh;
+  margin-bottom: 1.4vh;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   outline: none;
   border-radius: 0.2rem;
@@ -289,20 +289,20 @@ button {
 
   & i {
     position: absolute;
-    left: 0.2rem;
-    font-size: 1.2rem;
-    padding: 0.5rem;
+    left: 0.1vw;
+    font-size: 2.5vh;
+    padding: 1vh;
   }
 }
 
 .inputForm {
   margin-top: 3vh;
-  width: 20rem;
+  width: 25vw;
 
   & .incorrectData {
-    width: 20rem;
-    height: 5.5vh;
-    padding: 0.5rem;
+    width: 25vw;
+    height: 5vh;
+    padding: 1vh;
     border: 1px solid black;
     background-color: rgba(255, 0, 0, 0.5);
     border-radius: 0.2rem;
@@ -311,10 +311,10 @@ button {
     align-self: center;
     // display: none;
     // animation: shake 1s linear;
-    transition: 5s;
+    // transition: 5s;
 
     & p {
-      font-size: 0.8rem;
+      font-size: 1vw;
       font-weight: 900;
       align-self: center;
     }
@@ -333,13 +333,13 @@ button {
 
     span i {
       position: absolute;
-      top: 2.2rem;
-      right: 0.4rem;
+      top: 4.85vh;
+      right: 0.65vw;
       background-color: #efefef;
-      padding: 0.2rem;
+      padding: 0.5vh;
       box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
       border-radius: 0.2rem;
-      font-size: 1.5vw;
+      font-size: 1.2vw;
       cursor: pointer;
 
       &:hover {
@@ -354,7 +354,7 @@ button {
 
       width: 100%;
       & .forgot {
-        font-size: 0.5rem;
+        font-size: 1.1vh;
         align-self: flex-start;
         margin-top: 1.8vh;
       }
@@ -369,8 +369,8 @@ button {
   }
   & input {
     width: 100%;
-    height: 5.5vh;
-    padding: 0.5rem;
+    height: 5vh;
+    padding: 1vh;
     outline: none;
     border-radius: 0.2rem;
     border: 1px solid black;
@@ -391,7 +391,7 @@ button {
   & .emailValidate,
   & .passwordValidate {
     margin-top: 0.3vh;
-    font-size: 0.6rem;
+    font-size: 1.2vh;
     font-weight: 500;
     color: red;
     align-self: flex-start;
@@ -409,9 +409,9 @@ button {
 
 .helpLinks {
   margin-top: -1vh;
-  width: 20rem;
+  width: 25vw;
   display: flex;
-  font-size: 0.5rem;
+  font-size: 1.1vh;
   justify-content: space-between;
 }
 
@@ -421,17 +421,17 @@ footer {
     // color: #64b5f9;
     color: #00287a;
     font-weight: 200;
-    font-size: 0.7rem;
+    font-size: 0.8vw;
     text-align: center;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1.5vh;
   }
 
   & .sponsors {
     display: flex;
     justify-content: center;
-    column-gap: 2rem;
+    column-gap: 2.5vw;
     background-color: #00287a;
-    padding: 1rem;
+    padding: 2vh;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 
     & img {
