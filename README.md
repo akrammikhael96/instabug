@@ -4,7 +4,7 @@ A login, welcome page with form validations and dynamic routing.
 
 ## Demo
 
-https://am96.netlify.app/
+https://instabug-am96.netlify.app/
 
 ![Login Page](https://github.com/akrammikhael96/instabug/blob/main/preview/Login%20Page.png?raw=true)
 
